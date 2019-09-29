@@ -16,25 +16,25 @@ Start typing on a Matlab file and press tab to select completion suggestion.
 
 
 ## Installation
-> Important: You need to have `Package Control` installed first on your sublime text which can be found at [The Package Contol Website](http://packagecontrol.io)
 
-### Using Package Control's Repository
+### By Package Control
 
-Go to `Preferences` --> `Package Control` --> `Add Repository` --> then type into the textbox `https://github.com/tushortz/Matlab-Completions`
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `MatlabCompletions` and press <kbd>Enter</kbd>
 
-After doing this, then go to: `Preferences` --> `Package Control` --> `Install Package` --> then search `Matlab-Completions` and click it.
-
-The package will be installed and ready for use.
-
-
-### Using Git
-
-Locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
-
-While inside the `Packages` directory, clone the theme repository using the command below:
-
-    git clone https://github.com/tushortz/Matlab-Completions.git
-
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 ### Download Manually
@@ -62,7 +62,7 @@ copy the **Matlab-Completions** folder and paste the file into the following loc
 
 ## Contributing
 
-All contributions are welcome. 
+All contributions are welcome.
 
 ## License
 © 2015 Taiwo Kareem | taiwo.kareem36@gmail.com.
